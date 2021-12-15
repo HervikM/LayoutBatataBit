@@ -1,0 +1,46 @@
+.header{
+   background: var(--colorGradient);
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   inline-size: 100%;
+   min-inline-size: 320px;
+   block-size: 295px;
+   text-align: center;
+}
+
+.header .header--image{
+   inline-size: 150px;
+   block-size: 24px;
+   margin-block-start: 42px;
+   align-self: center;
+}
+
+.header .headerTextContainer{
+   inline-size: 90%;
+   min-inline-size: 288px;
+   max-inline-size: 900px;
+   block-size: 218px;
+   margin-block-start: 33px;
+   align-self: center;
+}
+
+.header .headerTextContainer--title{
+   font: var(--h1Mobile);
+   color: var(--justWhite);
+   margin: 0;
+}
+.header .headerTextContainer--subtitle{
+   font:var(--h2Mobile);
+   color: var(--softOrange);
+   margin-block-start: 24px;
+   margin-block-end: 32px;
+}
+
+.header .headerTextContainer--button{
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50%, 80%);
+}

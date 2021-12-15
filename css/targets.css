@@ -1,0 +1,33 @@
+.target{
+   background: var(--warmBlack2);
+   inline-size: 90%;
+   block-size: 152px;
+   margin-block-end: 16px;
+   text-align: start;
+   padding: 16px;
+   box-shadow: var(--sombraNegra);
+   border-radius: 4px;
+}
+.target-icon{
+   inline-size: 24px;
+   block-size: 24px;
+}
+.target-title{
+   margin: 0;
+   margin-block-start: 12px;
+   font-family: var(--fontDmSans);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 18px;
+   color: var(--justWhite);
+}
+.target-description{
+   margin: 0;
+   margin-block-start: 10px;
+   font: var(--h2Mobile);
+   color: #808080;
+}
+.target:nth-of-type(1){
+   margin-block-start:32px ;
+}

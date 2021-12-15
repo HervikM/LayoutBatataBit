@@ -1,0 +1,44 @@
+.section-two{
+   background: var(--warmBlack);
+   inline-size: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.sectionTwo-container{
+   inline-size: 90%;
+   text-align: center;
+}
+.sectionTwo-title{
+   color:var(--justWhite) ;
+   font: var(--h1Mobile);
+   margin-block-start: 64px;
+}
+
+.sectionTwo-subtitle{
+   color: #808080;
+   font: var(--h2Mobile);
+}
+
+.sectionTwo-image{
+   position: relative;
+   margin-block-start:24px ;
+}
+
+.sectionTwoImage{
+   inline-size: 100%;
+}
+
+.sectionTwoText{
+   color: var(--justWhite);
+   font: var(--h1Mobile);
+   position: absolute;
+   left: 50%;
+   top: 10%;
+   transform: translate(-50%,-10%);
+   inline-size: 100%;
+   text-align: center;
+
+}

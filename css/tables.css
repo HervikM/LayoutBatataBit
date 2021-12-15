@@ -1,0 +1,77 @@
+.table{
+   background: var(--justWhite);
+   inline-size: 13.7rem;
+   min-inline-size: 13.7rem;
+   block-size: 159px;
+   border-collapse: collapse;
+   border-radius: 8px;
+
+
+}
+
+.table-title{
+   font-family: var(--fontDmSans);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 23px;
+   color: var(--bitcoinOrange);
+}
+
+.table-name{
+   color:#B5B0AC;
+   padding: 10px 12px;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 19px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   border: 1px solid var(--offWhite);
+
+}
+
+.table-number{
+   padding: 11px 12px;
+   color:#757575;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 17px;
+   letter-spacing: -0.02em;
+   text-align: center;
+   border: 1px solid var(--offWhite);
+
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+}
+
+
+
+.table-values{
+   background: var(--softOrange);
+   inline-size: 115px;
+   block-size: 31px;
+   font-family: var(--fontInter);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+   align-self: center;
+   margin: auto;
+   margin-block-start: 1rem;
+   padding: 5px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   border-radius: .5rem;
+   margin-block-end: 65px;
+}

@@ -1,0 +1,25 @@
+/* .button{
+
+} */
+
+.button-header{
+   min-inline-size: 229px;
+   inline-size: 229px;
+   block-size: 48px;
+   background: var(--offWhite);
+   text-decoration: none;
+   /* padding-inline: 15px ; */
+   padding: 5px 10px;
+   /* padding-block: 1px; */
+   border-radius: 4px;
+   color: var(--warmBlack);
+   font:var(--h2Mobile);
+   font-weight: 700;
+   box-shadow: var(--sombraBlanca);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 14px;
+
+}

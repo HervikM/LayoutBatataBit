@@ -1,0 +1,26 @@
+.section-one{
+   background:var(--offWhite);
+   inline-size: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-block-start: 58px;
+}
+
+.sectionOne-container{
+   inline-size: 90%;
+   text-align: center;
+   align-self: center;
+}
+
+.sectionOne-title{
+   font: var(--h1Mobile);
+   color: var(--warmBlack);
+}
+
+.sectionOne-subtitle{
+   font: var(--h2Mobile);
+   color: var(--gray);
+   margin-block-end: 40px;
+}

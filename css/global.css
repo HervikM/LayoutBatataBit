@@ -1,0 +1,38 @@
+:root{
+   /* Color palette */
+   --colorGradient:linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+   --bitcoinOrange:#F7931A;
+   --softOrange:#FFE9D5;
+   --secondaryBlue:#1A9AF7;
+   --softBlue: #E7F5FF;
+   --warmBlack:#201E1C;
+   --warmBlack2:#282623;
+   --gray:#BABABA;
+   --offWhite:#FAF8F7;
+   --justWhite:#fff;
+
+   /* Shadows */
+   --sombraBlanca:0px 4px 8px rgba(89, 73, 30, 0.16);
+   --sombraNegra:0px 4px 8px rgba(0, 0, 0, 0.16);
+
+   /* texts */
+   --fontDmSans: 'DM Sans', sans-serif;
+   --fontInter:'Inter', sans-serif;
+
+   --h1Mobile:bold 1.5rem/1.625rem var(--fontDmSans);
+   --h2Mobile:500 .875rem/1.125rem var(--fontDmSans);
+
+   --h1Tablet:bold 2.5rem/2.625rem var(--fontDmSans);
+   --h2Tablet:500 1.25rem/1.5rem var(--fontDmSans);
+
+
+}
+
+body{
+   font-family: var(--fontDmSans);
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   min-block-size: 100vh;
+   background:var(--offWhite);
+}
